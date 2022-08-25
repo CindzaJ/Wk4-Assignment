@@ -1,0 +1,3 @@
+This week's assignment is a bit more interesting where we are allocated to create a series of selective multiple choice questions with set time + retaining information of guest name initials. 
+I will begin with working out with the layout of the HTML and Javascript first, followed by using CSS format as the final part of the initialization. 
+However, upon researching and writing this particular code, I have noticed the issues on the context of Choice which was interpreted as 'Null'.

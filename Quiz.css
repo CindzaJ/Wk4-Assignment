@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body{
+    color:white;
+}
+
+.choice-container{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(13, 180, 206);
+    font-size: 7rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover{
+    cursor:pointer;
+    box-shadow: 0 0.5rem 1.5rem 0 rgba greenyellow;
+    transform: scale(1.02);
+    transform: 100ms;
+}
+.choice-prefix{
+    padding:2rem 2.5rem;
+    color:aliceblue;
+}
+
+.choice-text{
+    padding: 2rem;
+    width: 100%;
+}
+
+correct{
+    background: linear-gradient(32deg,rgba greenyellow 0%, rgb(104, 119, 81) 100%);
+}
+
+incorrect{
+    background: linear-gradient(32deg,rgba red 0%, rgb(231, 108, 70) 100%);
+}
+/* Heads up Display */
+
+#hud {
+display: flex;
+justify-content: space-between;
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+
+}
+.hud-main-text{
+    text-align: center;
+}
+
+#progressBar{
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(68, 227, 68);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull{
+    height: 100%;
+    background: rgb(68, 227, 68);
+    width: 0%;
+}
+
+@media screen and (max-width:768px){
+    .choice-container{
+        min-width: 40rem;
+    }
+}
